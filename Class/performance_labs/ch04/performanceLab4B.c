@@ -1,3 +1,9 @@
+/*
+    Author: Jared Young
+    Date: 04 FEB 2019
+    Project: Performance Lab 4B
+    Description: Input a single character and then print the previous sequential character.
+*/
 #include <stdio.h>
 
 int main()
