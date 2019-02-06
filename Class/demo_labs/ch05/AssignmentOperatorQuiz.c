@@ -37,8 +37,7 @@ int main()
     x = 9;
     y = 3;
 
-    printf("(y %= y) || (x /= x--) = %d \n", (y %= y) || (x /= x--) );
+    printf("(y %= y) || (x /= x--) = %d \n", (y %= y) || (x /= x--));
  
     return (0);
-
 }
