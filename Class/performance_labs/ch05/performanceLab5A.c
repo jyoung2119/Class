@@ -23,8 +23,8 @@ int main(void)
     if((legA > 0) && (legB > 0))
     {
 
-        dblHypotenuse = ((legA * legA) + (legB * legB));
-        printf("The hypotenuse equals %lf\n", sqrt(dblHypotenuse));
+        dblHypotenuse = sqrt((legA * legA) + (legB * legB));
+        printf("The hypotenuse equals %lf\n", dblHypotenuse);
     }
     else
     {
