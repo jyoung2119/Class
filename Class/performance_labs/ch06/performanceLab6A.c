@@ -63,4 +63,5 @@ int main(void)
         spaceCounter++;
     }
     printf("\n");
+    
 }
