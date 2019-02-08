@@ -57,7 +57,7 @@ int main(void)
         {
             fprintf(stdout, "1");
         }
-        //Shifts
+        //Shifts right one bit
         bitChecker = bitChecker >> 1;
         //Increments counter to keep track of the space placement.
         spaceCounter++;
