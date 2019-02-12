@@ -1,3 +1,15 @@
+/*
+    Author: Jared Young
+    Date: 12 FEB 2019
+    Project: Performance Lab 8A
+    Description: Return Value - number of characters replaced
+                 Parameters
+                    Pointer to a null-terminated string
+                    Character to find
+                    Character to replace it with
+                 Purpose - replace all occurrences of findThisChar with replaceItWithThis
+                 Use pre-defined return values as indicated in shell code
+*/
 #include <stdio.h>
 #include <string.h>
 #define ERR_NULL_POINTER -1		                // Error:  Pointer passed was NULL
