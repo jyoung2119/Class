@@ -18,8 +18,10 @@ int main(void)
     int secondVariable = 0;
 
     printf("Input two numbers separated by an operator: ");
+    //Stores user input as integers and operator as a character.
     scanf("%d%c%d", &firstVariable, &mathOperator, &secondVariable);
 
+    //Dependent on the operator that is entered.
     switch(mathOperator)
     {
         //Addition

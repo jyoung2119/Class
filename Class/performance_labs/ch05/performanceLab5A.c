@@ -18,12 +18,16 @@ int main(void)
     double dblHypotenuse = 0;
 
     printf("Please input measurements for each side of the triangle separated by a tab: ");
+    //Stores user input into integer values while ignoring the tab separator.
     scanf("%i\t%i", &legA, &legB);
 
+    //Error Handling
+    //Runs if user inputs suitable measurements.
     if((legA > 0) && (legB > 0))
     {
-
+        //Utilizes sqrt function to find the hypotenuse.
         dblHypotenuse = sqrt((legA * legA) + (legB * legB));
+        //Prints hypotenuse as a double hence the %lf.
         printf("The hypotenuse equals %lf\n", dblHypotenuse);
     }
     else
