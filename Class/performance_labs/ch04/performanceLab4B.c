@@ -10,8 +10,11 @@ int main()
 {
     int userInput = 0;
     printf("Input something scrub: ");
+
+    //Stores ascii value of user input as an integer.
     userInput = getc(stdin);
     printf("The prior character is: ");
+    //Prints the previous ascii value's character as output.
     putc(userInput - 1, stdout);
     printf("\n");
     return 0;

@@ -11,8 +11,12 @@ int main()
 {
     int userInput = 0;
     printf("Input character: ");
+
+    //Stores the single character's ascii value as an interger.
     userInput = getchar();
     printf("The sequential character is: ");
+    
+    //Adds 1 to the ascii value of the original character and prints it.
     putchar(userInput + 1);
     printf("\n");
     return 0;

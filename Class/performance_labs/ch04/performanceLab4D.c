@@ -23,7 +23,9 @@ int main()
 
     //Part 1
     printf("Enter your full name with each name separated by a tab: ");
+    //Stores user input into three separate arrays.
     scanf("%255s\t%255s\t%255s", &firstName, &middleName, &lastName);
+    //Prints the contents of each array.
     printf("Your full name is: \n%s\t\n%s\t\n%s\n", firstName, middleName, lastName);
 
     //Part 2
@@ -31,8 +33,11 @@ int main()
     int intSecondNumber = 0;
     
     printf("Enter two integers, separated by a *, to be multiplied: ");
+    //Stores integer input while ignoring the "*" symbol.
     scanf("%i%*c%i", &intFirstNumber, &intSecondNumber);
+    //Calculates the product of user input.
     int intResult = intFirstNumber * intSecondNumber;
+    //Prints original input and results.
     printf("The result of %i mutltiplied by %i is %i.\n", intFirstNumber,intSecondNumber, intResult);
     
     return 0;
