@@ -1,3 +1,4 @@
+//Just practice to reverse a string.
 #include <stdio.h>
 #include <string.h>
 
