@@ -1,4 +1,4 @@
-//Simple program utilizes conditional compilation
+//Simple program utilizes conditional compilation.
 #include <stdio.h>
 
 //Uncomment which version you wish to run.
