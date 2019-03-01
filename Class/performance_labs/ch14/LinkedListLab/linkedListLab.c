@@ -49,12 +49,12 @@ int main()
     strcpy(Ogden->initials, "GLO");
     strcpy(Ogden->musicArtist, "Some Country Dude");
     strcpy(Ogden->dreamCar, "Lambo");
-    Ogden->next_node = Butler;
+    Ogden->next_node = Butler;                             //Link to Butler
 
     strcpy(Butler->initials, "JAB");
     strcpy(Butler->musicArtist, "Some Metal Band");
     strcpy(Butler->dreamCar, "Jaguar");
-    Butler->next_node = McLain;
+    Butler->next_node = McLain;                            //Link to McLain
 
     strcpy(McLain->initials, "KLM");
     strcpy(McLain->musicArtist, "Some Pop Punk Band");
@@ -66,7 +66,7 @@ int main()
     {
         tempUserChoice = printMenu();           //Store input from printMenu().
 
-        switch(tempUserChoice)
+        switch(tempUserChoice)                  //Handles the printing of desired info based off of user choice.
         {   
             //Prints the whole list.
             case 1:
