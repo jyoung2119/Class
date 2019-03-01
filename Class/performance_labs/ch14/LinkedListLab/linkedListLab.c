@@ -32,7 +32,7 @@ typedef struct studentInfo
 int main()
 {
     int tempUserChoice = 0;                 //Stores user input
-    int loopChoice = 0;
+    int loopChoice = 0;                     //Stores the loop condition
 
     //Allocate memory for each node.
     node_t *Young = (node_t*)malloc(sizeof(node_t));
