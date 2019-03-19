@@ -1,3 +1,11 @@
+/*
+    Author: Jared Young
+    Date: 19 MAR 2019
+    Project: Prompt #1 Substring Search
+    Description: Search through a string for a searchword.
+                 Print only the rest of the string following the search word.
+                 Repeat in case of a second occurence of the search word.
+*/
 #include <stdio.h>
 #include <string.h>
 

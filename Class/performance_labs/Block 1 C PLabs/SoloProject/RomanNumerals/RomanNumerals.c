@@ -1,3 +1,9 @@
+/*
+    Author: Jared Young
+    Date: 19 MAR 2019
+    Project: Prompt #4 Roman Numeral Converter
+    Description: Convert interger to roman numeral and vice versa
+*/
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
