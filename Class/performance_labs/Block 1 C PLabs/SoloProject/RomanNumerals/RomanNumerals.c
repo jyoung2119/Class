@@ -15,8 +15,8 @@ int main()
     int userNumber = 0;             //Stores integer to convert to Roman
     char userRoman[256] = {0};      //Stores Roman numerals to convert to integer
 
-    printf("Enter an Integer: ");
-    if(scanf("%i", &userNumber) != 1)       //Error handling
+    printf("Enter an Integer(1-100): ");
+    if(scanf("%i", &userNumber) != 1 || userNumber > 100)       //Error handling
     {
         printf("Why do you suck?\n");
         return 0;
