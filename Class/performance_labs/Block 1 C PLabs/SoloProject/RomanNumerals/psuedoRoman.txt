@@ -1,0 +1,15 @@
+Ask for integer to convert
+    Scan and error handle
+Ask for roman numerals to convert
+    Scan and error handle
+Ask for key to display conversions
+    Error handle
+Call display roman numerals function
+    Pass user inputs
+    Print corresponding tens and ones places
+Call display decimal function
+    Pass roman numeral user input
+    Loop through input
+        Sync each character to its corresponding value
+        Add values to total
+    Display total

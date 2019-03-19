@@ -1,0 +1,8 @@
+    This program originally started out as printing the numbers 1-100
+and then their roman numeral equivalent. Due to a requirements change, 
+the program now converts an integer value into roman numerals and vice 
+versa. The output is dependent upon the input of the correct key (idf).
+I used two switch cases to display the integer to roman numeral 
+conversion. The first one prints the tens place and the second one prints
+the other letters. I used nested if statements inside a for loop in order
+to display the roman numeral to integer conversion.

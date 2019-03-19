@@ -1,0 +1,7 @@
+    The purpose of this program is to accept a user inserted string
+and a user inserted search word. The program will then use the function
+strstr() to find the first appearance of the search word in the original
+string. After the search word is located, the remainder of the original
+string beginning with the search word will be printed. The process will 
+then be repeated in search for a second appearance of the search word
+in the remainding string.

@@ -1,0 +1,12 @@
+Prompt for user input
+    Store user input
+    Error handling
+Prompt for search word
+    Store input
+    Error handling
+Function call to search original input for search word
+    Utilize strstr to find first occurence
+    Print result
+    Utilize strstr to find second occurence
+    Print result
+    Error handling
