@@ -6,6 +6,6 @@
 
 int main() 
 {
-   char *p = NULL;
-   printf("%c", *p);
+   int x = 4;
+   printf("%d %d", x, x++);
 }

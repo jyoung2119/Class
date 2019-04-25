@@ -36,8 +36,8 @@ void letterClassification(char *input)
         {
             vowelCount++;
         }
-        //Else if character is not a space, increment consonant counter
-        else if(input[i] != ' ')
+        //Else if character is not a space and a valid character, increment consonant counter
+        else if(input[i] != ' ' && input[i] >= 97 && input[i] <= 122)
         {       
             conCount++;
         }
