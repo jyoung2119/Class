@@ -1,0 +1,23 @@
+Project: Block 1 C Project
+Name: Pizza Ordering System
+Date: 14 MAR 2019
+Created By: Joseph Beasley
+            Jonathan Butler
+            Onawa Lanier
+            Jared Young
+
+Special Thanks To: Grant Ogden
+
+______
+|     |
+|_____|_     \ \ \
+________|    / / /
+/ / \\       \ \ \ 
+ n  n|      _______
+   \ |  .-''#,O#;O#``-.
+  `- / ((O;,O.,%.;O&,&))
+|  |    `-._#c.O#,%_.-'
+/\/\`--.     ."".-'
+|  |    \   /`./
+|\/|  \  `-'  /
+|| |   \     /        
