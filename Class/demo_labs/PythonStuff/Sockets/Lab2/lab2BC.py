@@ -1,0 +1,25 @@
+import socket
+import json
+
+# msgFromClient       = "Hello UDP Server"
+# bytesToSend         = str.encode(msgFromClient)
+serverAddressPort   = ("127.0.0.1", 20001)
+bufferSize          = 1024
+#Create dictionary
+person_dict = {'name': 'Bob', 'age': 12, 'children': None}
+#Convert to JSON string
+person_json = json.dumps(person_dict)
+#Encode in order to send 
+bytesToSend = str.encode(person_json)
+
+# Create a UDP socket at client side
+UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
+
+# Send to server using created UDP socket
+UDPClientSocket.sendto(bytesToSend, serverAddressPort)
+
+msgFromServer = UDPClientSocket.recvfrom(bufferSize)
+
+msg = "Message from Server {}".format(msgFromServer[0])
+
+print(msg)
