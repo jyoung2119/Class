@@ -1,0 +1,21 @@
+Project: Python Group Project
+Name: Pizza Ordering System
+Date: 15 MAY 2019
+Created By: Joseph Beasley
+            Jonathan Butler
+            Onawa Lanier
+            Jared Young
+
+______
+|     |
+|_____|_     \ \ \
+________|    / / /
+/ / \\       \ \ \ 
+ n  n|      _______
+   \ |  .-''#,O#;O#``-.
+  `- / ((O;,O.,%.;O&,&))
+|  |    `-._#c.O#,%_.-'
+/\/\`--.     ."".-'
+|  |    \   /`./
+|\/|  \  `-'  /
+|| |   \     /  
